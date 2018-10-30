@@ -6,11 +6,11 @@
 ---
 spring:
   profiles: dev
-     application: 
+  application: 
        name: microservicecloud-config-atwzh-dev
        
 ---
 spring:
   profiles: test
-     application: 
-       name: microservicecloud-config-atwzh-test
+  application: 
+     name: microservicecloud-config-atwzh-test
