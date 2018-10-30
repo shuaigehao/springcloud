@@ -1,0 +1,17 @@
+server:
+  port: 8888
+eureka: 
+  client: 
+    service-url.defaultZone: 8888.com
+spring:
+  application:
+    name: 8888
+---
+server:
+  port: 7777
+eureka: 
+  client: 
+    service-url.defaultZone: 7777.com
+spring:
+  application:
+    name: 7777
