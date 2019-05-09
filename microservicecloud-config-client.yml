@@ -4,9 +4,9 @@ spring:
       - dev
 ---
 spring:
-  profiles: dev-bus
+  profiles: dev
   text: test
 ---
 spring:
-  profiles: test-bus
+  profiles: test
   text: testt
