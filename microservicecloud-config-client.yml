@@ -8,11 +8,11 @@ server:
 spring:
   profiles: dev
   application:
-    name: 10002-dev-bus
+    name: 10003-dev-bus
 ---
 server:
   port: 10003
 spring:
   profiles: test
   application:
-    name: 10002-test
+    name: 10003-test
