@@ -5,8 +5,8 @@ spring:
 ---
 spring:
   profiles: dev
-  text: test-bus
+  text: test
 ---
 spring:
   profiles: test
-  text: testt-bus
+  text: testt
