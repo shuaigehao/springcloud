@@ -1,6 +1,12 @@
-server:
-  port: 10003
+---
 spring:
+  profiles: dev
+  application:
+    name: cloud-greenwich-config-client-10003
+  text: test
+---
+spring:
+  profiles: test
   application:
     name: cloud-greenwich-config-client-10003
   text: test
