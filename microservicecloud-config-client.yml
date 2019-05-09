@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: 10003-dev-bus
+    name: 10003-dev
 ---
 server:
   port: 10003
