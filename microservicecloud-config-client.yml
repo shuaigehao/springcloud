@@ -1,12 +1,2 @@
-spring: 
-  profiles:
-    active: 
-      - dev
----
 spring:
-  profiles: dev
-  text: test-bus
----
-spring:
-  profiles: test
   text: test-bus
