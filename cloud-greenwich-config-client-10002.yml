@@ -4,6 +4,7 @@ spring:
   application:
     name: cloud-greenwich-config-client-10002
   text: test--3
+--- 
 spring:
   profiles: test
   application:
